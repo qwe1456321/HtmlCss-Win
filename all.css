@@ -1,0 +1,57 @@
+.wrap {
+  max-width: 1920px;
+  margin: 0 auto;
+}
+
+.courseItem {
+  line-height: 1.1;
+  margin-right: 24px;
+  position: relative;
+  height: 540px;
+}
+.courseItem img {
+  width: 416px;
+  height: 200px;
+}
+.courseItem p {
+  font-size: 18px;
+}
+.courseItem h2 {
+  font-size: 25px;
+  line-height: 1.5;
+}
+.courseItem a {
+  text-decoration: none;
+  font-size: 23px;
+  color: blue;
+}
+.courseItem a:hover {
+  color: rgb(245, 97, 176);
+}
+.courseItem button {
+  margin-bottom: 20px;
+  padding: 10px;
+  position: absolute;
+  bottom: 1px;
+}
+.courseItem span p {
+  display: inline;
+  border: 1px solid blue;
+  color: white;
+  background-color: blue;
+  padding: 5px;
+  border-radius: 45%;
+  margin-left: 10px;
+}
+.courseItem span p:hover {
+  background-color: red;
+  border: 1px solid white;
+}
+
+.course1 {
+  width: 500px;
+  display: flex;
+  padding-bottom: 40px;
+  padding-top: 40px;
+  justify-content: space-between;
+}/*# sourceMappingURL=all.css.map */
